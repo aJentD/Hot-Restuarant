@@ -1,0 +1,21 @@
+.jumbotron{
+    text-align: center;
+}
+
+/* view.html */
+.reservations{
+    padding: 20px 250px 20px 250px;
+}
+
+.waitlist{
+    padding: 20px 250px 20px 250px;
+}
+
+/* reservation.html */
+.form-group{
+    padding: 10px;
+}
+
+#submit{
+    margin: 0px 0px 15px 10px;
+}

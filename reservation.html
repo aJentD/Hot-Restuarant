@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+        <body>
+            <div class="jumbotron">
+                <h1 class="display-4">Hot Restaurant</h1>
+                <hr class="my-4">
+                <p class="lead">Make your reservation!</p>
+                <a class="btn btn-primary btn-lg" href="view.html" role="button">View tables</a>
+                <a class="btn btn-light btn-lg" href="index.html" role="button">Home</a>
+            </div>
+
+        <form>
+            <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Table Reservation</div>
+                
+            <div class="form-group">
+                <label for="nameinput">Name</label>
+                <input type="name" class="form-control" id="nameInput" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+                    <label for="numberinput">Phone Number</label>
+                    <input type="number" class="form-control" id="numberInput" min="9" max="12" placeholder="000-000-000">
+            </div>
+
+            <div class="form-group">
+                    <label for="emailinput">Email</label>
+                    <input type="email" class="form-control" id="emailInput" placeholder="email@example.com">
+            </div>
+
+            <div class="form-group">
+                    <label for="idinput">Unique ID</label>
+                    <input type="id" class="form-control" id="IDInput" placeholder="Unique ID">
+            </div>
+
+            <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+        </form>
+        </body>
+</html>
